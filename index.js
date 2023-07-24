@@ -1,8 +1,8 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const questions = [
     {
       type: 'input',
@@ -52,9 +52,7 @@ const questions = [
     },
   ];
 
-// TODO: Create a function to write README file
-// const fileName = `${data.projectTitle.toLowerCase().split(' ').join('')}.md`;
-
+// Function to write README file
 function mdTemp (data) {
 return `# ${data.projectTitle}   [![License](https://img.shields.io/badge/License-${data.license}-green.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -83,7 +81,7 @@ ${data.usage}
 
 ## License
 
-Distributed under the ${data.license}
+Distributed under the ${data.license} license
 
 ## Contributing
 
@@ -108,12 +106,12 @@ function writeToFile(fileName, data) {
     );
 }
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {   
 inquirer
     .prompt(questions)
 
-    .then((data) => writeToFile('newREADME.md', data));
+    .then((data) => writeToFile('generatedREADME.md', data));
 }
 
 // Function call to initialize app

@@ -1,42 +1,21 @@
-# asd   [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
+# README Generator
 
 ## Description
 
-asd
-
-## Table of Contents
-
-<ul>
-    <li><a href="#installation">Installation</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#tests">Tests</a></li>
-    <li><a href="#questions">Questions</a></li>
-</ul>
+This project generates a simple but professional looking README file fo rprojects using the inquirer package.
 
 ## Installation
 
-asd
+Need to run npm install for inquirer
 
 ## Usage
 
-asd
+A tutorial for using this can be viewed at: https://watch.screencastify.com/v/FFA1njmjuHHqzqou2pfq
+
+## Credits
+
+N/A
 
 ## License
 
-Distributed under the Apache_2.0
-
-## Contributing
-
-asdf
-
-## Tests
-
-adsf
-
-## Questions
-afsd, https://github.com/afsd
-
-adsf
-
+Refer to the LICENSE in the repository
